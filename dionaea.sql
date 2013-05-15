@@ -1,0 +1,25 @@
+INSERT INTO plugin (id, type, name, description) VALUES (90013, 1, 'Dionaea', 'Dionaea Honeypot');
+
+INSERT INTO plugin_sid (plugin_id, sid, category_id, subcategory_id, name, priority, reliability) VALUES (90013, 1, 19, 225, 'Dionaea: Incoming Connection emulation', 1, 3);
+INSERT INTO plugin_sid (plugin_id, sid, category_id, subcategory_id, name, priority, reliability) VALUES (90013, 2, 19, 225, 'Dionaea: Incoming Connection epmapper', 1, 3);
+INSERT INTO plugin_sid (plugin_id, sid, category_id, subcategory_id, name, priority, reliability) VALUES (90013, 3, 19, 225, 'Dionaea: Incoming Connection ftpctrl', 1, 3);
+INSERT INTO plugin_sid (plugin_id, sid, category_id, subcategory_id, name, priority, reliability) VALUES (90013, 4, 19, 225, 'Dionaea: Incoming Connection ftpd', 1, 3);
+INSERT INTO plugin_sid (plugin_id, sid, category_id, subcategory_id, name, priority, reliability) VALUES (90013, 5, 19, 225, 'Dionaea: Incoming Connection ftpdata', 1, 3);
+INSERT INTO plugin_sid (plugin_id, sid, category_id, subcategory_id, name, priority, reliability) VALUES (90013, 6, 19, 225, 'Dionaea: Incoming Connection ftpdataconnect', 1, 3);
+INSERT INTO plugin_sid (plugin_id, sid, category_id, subcategory_id, name, priority, reliability) VALUES (90013, 7, 19, 225, 'Dionaea: Incoming Connection ftpdatalisten', 1, 3);
+INSERT INTO plugin_sid (plugin_id, sid, category_id, subcategory_id, name, priority, reliability) VALUES (90013, 8, 19, 225, 'Dionaea: Incoming Connection httpd', 1, 3);
+INSERT INTO plugin_sid (plugin_id, sid, category_id, subcategory_id, name, priority, reliability) VALUES (90013, 9, 19, 225, 'Dionaea: Incoming Connection mirrorc', 1, 3);
+INSERT INTO plugin_sid (plugin_id, sid, category_id, subcategory_id, name, priority, reliability) VALUES (90013, 10, 19, 225, 'Dionaea: Incoming Connection mirrord', 1, 3);
+INSERT INTO plugin_sid (plugin_id, sid, category_id, subcategory_id, name, priority, reliability) VALUES (90013, 11, 19, 225, 'Dionaea: Incoming Connection mssqld', 1, 3);
+INSERT INTO plugin_sid (plugin_id, sid, category_id, subcategory_id, name, priority, reliability) VALUES (90013, 12, 19, 225, 'Dionaea: Incoming Connection mysqld', 1, 3);
+INSERT INTO plugin_sid (plugin_id, sid, category_id, subcategory_id, name, priority, reliability) VALUES (90013, 13, 19, 225, 'Dionaea: Incoming Connection nc sink', 1, 3);
+INSERT INTO plugin_sid (plugin_id, sid, category_id, subcategory_id, name, priority, reliability) VALUES (90013, 14, 19, 225, 'Dionaea: Incoming Connection pcap', 1, 3);
+INSERT INTO plugin_sid (plugin_id, sid, category_id, subcategory_id, name, priority, reliability) VALUES (90013, 15, 19, 225, 'Dionaea: Incoming Connection remoteshell', 1, 3);
+INSERT INTO plugin_sid (plugin_id, sid, category_id, subcategory_id, name, priority, reliability) VALUES (90013, 16, 19, 225, 'Dionaea: Incoming Connection RtpUdpStream', 1, 3);
+INSERT INTO plugin_sid (plugin_id, sid, category_id, subcategory_id, name, priority, reliability) VALUES (90013, 17, 19, 225, 'Dionaea: Incoming Connection SipCall', 1, 3);
+INSERT INTO plugin_sid (plugin_id, sid, category_id, subcategory_id, name, priority, reliability) VALUES (90013, 18, 19, 225, 'Dionaea: Incoming Connection SipSession', 1, 3);
+INSERT INTO plugin_sid (plugin_id, sid, category_id, subcategory_id, name, priority, reliability) VALUES (90013, 19, 19, 225, 'Dionaea: Incoming Connection smbd', 1, 3);
+INSERT INTO plugin_sid (plugin_id, sid, category_id, subcategory_id, name, priority, reliability) VALUES (90013, 20, 19, 225, 'Dionaea: Incoming Connection TftpClient', 1, 3);
+INSERT INTO plugin_sid (plugin_id, sid, category_id, subcategory_id, name, priority, reliability) VALUES (90013, 21, 19, 225, 'Dionaea: Incoming Connection TftpServerHandler', 1, 3);
+INSERT INTO plugin_sid (plugin_id, sid, category_id, subcategory_id, name, priority, reliability) VALUES (90013, 22, 19, 225, 'Dionaea: Incoming Connection xmppclient', 1, 3);
+INSERT INTO plugin_sid (plugin_id, sid, category_id, subcategory_id, name, priority, reliability) VALUES (90013, 23, 4, 39, 'Dionaea: Malware Detected', 1, 3);
